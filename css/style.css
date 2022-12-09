@@ -2,4 +2,13 @@
     background-image: url(../images/hero.JPG);
     background-position: top right;
     background-repeat: no-repeat;
+    height: 40vh;
+    position: relative;
+}
+
+.my-pic {
+    max-height: 30vh;
+    max-width: 30vw;
+    object-fit: cover;
+    object-position: center;
 }
