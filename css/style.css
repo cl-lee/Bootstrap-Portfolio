@@ -14,3 +14,9 @@ header {
     object-fit: cover;
     object-position: center;
 }
+
+.my-name {
+    font-size: 2rem;
+    font-family: 'Amita', serif;
+    color: rgb(46, 45, 45);
+}
