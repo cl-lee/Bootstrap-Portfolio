@@ -7,11 +7,17 @@ header {
     background-position: top right;
     background-repeat: no-repeat;
     padding-left: 5vw;
-    padding-top: 5vh;
+    padding-top: 1.5rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding-left: 0.5rem;
 }
 
 .my-pic {
     height: 30vh;
+    padding-left: 0.5rem;
 }
 
 .my-pic img{
