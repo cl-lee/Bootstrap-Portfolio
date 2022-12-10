@@ -1,12 +1,16 @@
+header {
+    height: 50vh;
+}
+
 .hero {
     background-image: url(../images/hero.JPG);
     background-position: top right;
     background-repeat: no-repeat;
-    padding-left: 1vw;
+    padding-left: 5vw;
+    padding-top: 5vh;
 }
 
 .my-pic {
-    
     height: 30vh;
 }
 
