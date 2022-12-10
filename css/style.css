@@ -13,10 +13,11 @@ header {
     border: solid 0.2rem rgb(160, 157, 157);
     object-fit: cover;
     object-position: center;
+    height: 100%;
 }
 
 .my-name {
-    font-size: 2rem;
     font-family: 'Amita', serif;
     color: rgb(46, 45, 45);
+    white-space: nowrap;
 }
