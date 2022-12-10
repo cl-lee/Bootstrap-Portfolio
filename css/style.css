@@ -9,6 +9,10 @@ header {
     padding-left: 2vw;
 }
 
+.my-pic {
+    height: 30vh;
+}
+
 .my-pic img{
     border: solid 0.2rem rgb(160, 157, 157);
     object-fit: cover;
