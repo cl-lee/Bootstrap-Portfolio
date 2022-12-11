@@ -3,43 +3,50 @@
     background-color: #e8e8e8;
 }
 
+/* Styles the hero section */
 header {
     height: 45vh;
+    position: relative;
 }
 
-/* Styles the hero section */
-.hero {
+#hero {
     background-image: url(../images/hero.JPG);
     background-position: top right;
     background-repeat: no-repeat;
-    padding-left: 5vw;
-    padding-top: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 h1 {
-    font-size: 3vh;
+    font-size: 5vh;
     font-family: 'Amita', serif;
-    color: rgb(79, 78, 78);
-    white-space: nowrap;
-    padding-left: 0.5rem;
+    color: #262c2b;
+    padding-left: 1rem;
+    padding-right: 1.25rem;
+    background-color: #bfcbd1;
+    width: fit-content;
 }
 
 .my-pic {
     height: 25vh;
-    padding-left: 0.5rem;
+    padding-top: 2vh;
 }
 
 .my-pic img{
-    border: solid 0.2rem rgb(160, 157, 157);
+    border: solid 0.2rem #4a5b65;
     object-fit: cover;
     object-position: center;
     height: 100%;
 }
 
-.subtitle {
-    font-size: 1rem;
-    white-space: nowrap;
+#subtitle {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#subtitle p {
     background-color: #e8e8e8;
+    font-size: 2vh;
 }
 
 #my-works, .personal-info {
