@@ -1,8 +1,8 @@
 # Bootstrap-Portfolio
 
-Welcome to the repo for my [Bootstrap Portfolio](https://cl-lee.github.io/Bootstrap-Portfolio/), please click on the following URL to visit the webpage: https://cl-lee.github.io/Bootstrap-Portfolio/.
+Welcome to the repo for my [Bootstrap Portfolio](https://cl-lee.github.io/Bootstrap-Portfolio/), the webpage is made using Bootstrap (v4.3.1) as the name suggests. Please click on the following URL to visit the webpage: https://cl-lee.github.io/Bootstrap-Portfolio/.
 
-I am currently enrolled in a bootcamp for web development, the Portfolio will be updated to showcase my future works and projects.
+I am currently enrolled in a bootcamp for web development, this Portfolio will be updated to showcase my future works and projects.
 
 ## Site layout
 

@@ -60,11 +60,6 @@ h1 {
     opacity: 1;
 }
 
-#my-works, #personal-info {
-    padding-top: 2vh;
-    width: 90%;
-}
-
 #contact a {
     border: 0.1rem solid #e8e8e8;
     border-radius: 0.3rem;
