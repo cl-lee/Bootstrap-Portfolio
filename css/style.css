@@ -1,3 +1,5 @@
+/* Styles the hero section */
+
 header {
     height: 45vh;
 }
@@ -7,11 +9,11 @@ header {
     background-position: top right;
     background-repeat: no-repeat;
     padding-left: 5vw;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 3vh;
     font-family: 'Amita', serif;
     color: rgb(79, 78, 78);
     white-space: nowrap;
@@ -31,6 +33,7 @@ h1 {
 }
 
 .subtitle {
+    font-size: 1rem;
     white-space: nowrap;
 }
 
