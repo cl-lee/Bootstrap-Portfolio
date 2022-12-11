@@ -36,3 +36,7 @@ h1 {
 .subtitle {
     white-space: nowrap;
 }
+
+main {
+    padding-top: 2vh;
+}
