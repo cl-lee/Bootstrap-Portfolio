@@ -14,7 +14,7 @@
 
 <body>
   <!--The nav bar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
+  <nav class="navbar navbar-expand-lg navbar-light justify-content-end" id="navigator">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,8 +22,8 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#my-works">Work</a>
-        <a class="nav-item nav-link active" href="#">About me</a>
-        <a class="nav-item nav-link active" href="#">Contact</a>
+        <a class="nav-item nav-link active" href="#personal-info">About me</a>
+        <a class="nav-item nav-link active" href="#contact">Contact</a>
       </div>
     </div>
   </nav>
@@ -117,7 +117,8 @@
         <div class="row">
           <div class="card col-lg-3">
             <div class="card-body">
-              My name is Chung Lai, a bootcamp student currently studying web development. I look forward to utilising my
+              My name is Chung Lai, a bootcamp student currently studying web development. I look forward to utilising
+              my
               newly acquired skills in the future!
             </div>
           </div>
@@ -129,26 +130,26 @@
               <ul class="container">
                 <div class="row">
                   <div class="col-lg-3 skills-column">
-                <li>Git</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>UX</li>
+                    <li>Git</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>UX</li>
+                  </div>
+                  <div class="col-lg-5 skills-column">
+                    <li>Information architecture</li>
+                    <li>User experience design</li>
+                    <li>Structuring, positioning, and optimisation of web page content</li>
+                    <li>React.js</li>
+                    <li>Netlify</li>
+                  </div>
+                  <div class="col-lg-4 skills-column">
+                    <li>Javascript framework</li>
+                    <li>DOM manipulation</li>
+                    <li>Web-based applications</li>
+                    <li>Data extraction and retrieval</li>
+                  </div>
                 </div>
-                <div class="col-lg-5 skills-column">
-                <li>Information architecture</li>
-                <li>User experience design</li>
-                <li>Structuring, positioning, and optimisation of web page content</li>
-                <li>React.js</li>
-                <li>Netlify</li>
-                </div>
-                <div class="col-lg-4 skills-column">
-                <li>Javascript framework</li>
-                <li>DOM manipulation</li>
-                <li>Web-based applications</li>
-                <li>Data extraction and retrieval</li>
-                </div>
-              </div>
               </ul>
             </div>
           </div>
@@ -157,30 +158,28 @@
     </div>
 
   </div>
+  <!-- End of Personal info section -->
 
-  <!-- The footer section -->
-  <footer>
+  <!-- The footer section for Contact-->
+  <footer id="contact">
 
     <div class="row">
-    <h2 class="col-lg-1">Contact</h2>
-    <div class="col-lg-11">
+      
+      <h2 class="col-lg-1">Contact</h2>
+      <div class="col-lg-11">
 
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a href="mailto:cl.lee.ofz@gmail.com">📧Email</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/cl-lee" target="_blank" rel="noreferrer noopener">🐙😺Github</a>
+          </li>
+        </ul>
+      </div>
+    
     </div>
-    </div>
+
   </footer>
   <!-- End of footer section -->
 
@@ -194,7 +193,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-    <!-- End of Javascript for Bootstrap -->
+  <!-- End of Javascript for Bootstrap -->
 </body>
 
 </html>
