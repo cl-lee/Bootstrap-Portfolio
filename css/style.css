@@ -52,6 +52,14 @@ h1 {
     padding-right: 2vw;
 }
 
+.work-cards img {
+    opacity: 0.7;
+}
+
+.work-cards img:hover {
+    opacity: 1;
+}
+
 #my-works, #personal-info {
     padding-top: 2vh;
     width: 90%;
