@@ -38,6 +38,7 @@ h1 {
     background-color: #e8e8e8;
 }
 
-main {
+.my-works {
     padding-top: 2vh;
+    width: 80%;
 }
