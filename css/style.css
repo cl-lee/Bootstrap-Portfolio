@@ -22,7 +22,7 @@ h1 {
     font-family: 'Amita', serif;
     color: #262c2b;
     padding-left: 1rem;
-    padding-right: 1.25rem;
+    padding-right: 2rem;
     background-color: #bfcbd1;
     width: fit-content;
 }
@@ -30,6 +30,7 @@ h1 {
 .my-pic {
     height: 25vh;
     padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .my-pic img{
@@ -47,9 +48,12 @@ h1 {
 #subtitle p {
     background-color: #e8e8e8;
     font-size: 2vh;
+    padding-left: 4vw;
+    padding-right: 2vw;
 }
 
-#my-works, .personal-info {
+
+#my-works, #personal-info {
     padding-top: 2vh;
     width: 90%;
 }
