@@ -52,8 +52,16 @@ h1 {
     padding-right: 2vw;
 }
 
-
 #my-works, #personal-info {
     padding-top: 2vh;
     width: 90%;
+}
+
+#contact a {
+    border: 0.1rem solid #e8e8e8;
+    border-radius: 0.3rem;
+}
+
+#contact a:hover{
+    box-shadow: 0.1rem 0.1rem #bfcbd1;
 }
