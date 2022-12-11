@@ -1,5 +1,4 @@
-/* Styles the hero section */
-
+/* Styles the navigation bar */
 #navigator {
     background-color: #e8e8e8;
 }
@@ -8,6 +7,7 @@ header {
     height: 45vh;
 }
 
+/* Styles the hero section */
 .hero {
     background-image: url(../images/hero.JPG);
     background-position: top right;
@@ -42,7 +42,7 @@ h1 {
     background-color: #e8e8e8;
 }
 
-.my-works, .personal-info {
+#my-works, .personal-info {
     padding-top: 2vh;
     width: 90%;
 }
