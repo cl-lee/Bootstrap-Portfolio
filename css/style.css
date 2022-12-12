@@ -3,7 +3,7 @@ h1, h2, h3 {
     font-family: 'Cantora One';
 }
 
-p, nav a, footer a{
+p, nav a, .skills-column li, footer a{
     font-family: 'Dosis', serif;
 }
 
