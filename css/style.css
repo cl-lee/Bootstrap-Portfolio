@@ -1,4 +1,8 @@
 /* Styles the navigation bar */
+h1, h2, h3 {
+    font-family: 'Dosis', serif;
+}
+
 #navigator {
     background-color: #e8e8e8;
 }
@@ -19,7 +23,7 @@ header {
 
 h1 {
     font-size: 5vh;
-    font-family: 'Amita', serif;
+    /* font-family: 'Amita', serif; */
     color: #262c2b;
     padding-left: 1rem;
     padding-right: 2rem;
