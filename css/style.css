@@ -61,7 +61,12 @@ h1 {
     padding-right: 2vw;
 }
 
+.work-cards {
+    border: #e8e8e8 solid 0.3rem;
+}
+
 .work-cards img {
+    border: #262c2b solid 0.1rem;
     opacity: 0.7;
 }
 
