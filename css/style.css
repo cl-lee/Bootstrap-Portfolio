@@ -1,8 +1,13 @@
-/* Styles the navigation bar */
+/* Style texts for the web page */
 h1, h2, h3 {
+    font-family: 'Cantora One';
+}
+
+p, nav a, footer a{
     font-family: 'Dosis', serif;
 }
 
+/* Styles the navigation bar */
 #navigator {
     background-color: #e8e8e8;
 }
